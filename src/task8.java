@@ -1,4 +1,4 @@
-public class task05 {
+public class task8 {
     public static void main(String[] args) {
         int array[] = {65, 15, 66, 108, 9, 12, 10, 50, 155};
         int sum = calculateSum(array, array.length);

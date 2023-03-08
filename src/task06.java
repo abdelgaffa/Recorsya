@@ -8,14 +8,13 @@ public class task06 {
         System.out.println( recursiveSearch(array, 150));
     }
 
-    private static boolean recursiveSearch(int[] array, int i) {
-        return false;
+    public static boolean recursiveSearch(int[] array, int i) {
+        return true;
     }
 
     static int recursiveSearch(int arr[], int l, int r,
                                int x)
     {
-
         if (r < l)
             return -1;
 

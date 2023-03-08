@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class task6hw {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
-        int decimal = input.nextInt();
+        int decimal = scanner.nextInt();
         String binary = toBinary(decimal);
         System.out.println("The binary representation of " + decimal + " is " + binary);
     }

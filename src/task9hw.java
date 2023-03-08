@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class task9hw {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the size of the array: ");
-        int size = input.nextInt();
+        int size = scanner.nextInt();
 
         int[] array = new int[size];
         System.out.println("Enter the elements of the array:");
         for (int i = 0; i < size; i++) {
-            array[i] = input.nextInt();
+            array[i] = scanner.nextInt();
         }
 
         System.out.println("arr has only positive elements? " + hasOnlyPositiveElements(array));
